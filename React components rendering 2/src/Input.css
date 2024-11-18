@@ -1,0 +1,23 @@
+.label_mod {
+    padding:15px;
+}
+
+input {
+    height:25px;
+    width:150px;
+    border-radius: 6px;
+    border: 1px solid;
+}
+
+input::placeholder {
+    padding:5px;
+    color:#444445;
+}
+
+.button {
+    width:300px;
+    height:30px;
+    background-color:#c21f24;
+    color:#FFFFFF;
+    border:0px;
+}
