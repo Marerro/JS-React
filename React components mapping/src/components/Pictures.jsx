@@ -24,8 +24,8 @@ function Pictures () {
     return (
         <>
         <div className='container'>
-        {images.map((image, index) => (
-                <img className='Pmodify' key={index} src={image.src} />
+        {images.map((image) => (
+                <img className='Pmodify' key="1" src={image.src} />
         ))}
         </div>
         </>
