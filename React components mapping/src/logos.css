@@ -1,0 +1,11 @@
+.Pmodify {
+    width:1000px;
+    height:700px;
+}
+
+.container {
+    width:100%;
+    display:flex;
+    justify-content: center;
+    padding-top:350px;
+}

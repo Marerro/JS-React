@@ -1,0 +1,3 @@
+npm create vite@latest
+npm i or npm install
+npm run dev (default dev - priklauso nuo package.json)
