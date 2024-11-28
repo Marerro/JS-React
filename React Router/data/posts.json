@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Understanding React Router",
+      "author": "John Doe",
+      "content": "React Router is a library for routing in React applications...",
+      "date": "2023-11-20",
+      "category": "Programming"
+    },
+    {
+      "id": "2",
+      "title": "CSS Tips and Tricks",
+      "author": "Jane Smith",
+      "content": "CSS is a powerful tool for styling web applications...",
+      "date": "2023-11-18",
+      "category": "Design"
+    },
+    {
+      "id": "3",
+      "title": "Top JavaScript Libraries in 2023",
+      "author": "Chris Brown",
+      "content": "JavaScript is a versatile language, and its libraries...",
+      "date": "2023-11-15",
+      "category": "Programming"
+    }
+  ]
+}

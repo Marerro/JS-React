@@ -1,0 +1,28 @@
+- Child prijungimas App.jsx:
+
+        App.jsx pagrindiniame komponenente prirašome:
+        <Route path="/blog" element={<BlogList />}> ------ čia yra tėvas
+          <Route index element={<Child />} />  ---- čia yra vaikas.
+        </Route> 
+        -Iš tėvinio /blog elemento prijungiame kartu ir Child elementa. Tai kaip pavizdys rašome: localhost/blog kartu atvaizduojamas ir Child komponentas.
+
+        
+Prijunge child elementą turime Bloglist.jsx komponente :
+
+        import { Outlet } from "react-router";
+        prirašyti Outlet Blog elemente. <Outlet /> 
+
+- Params. Visalaika žymimi symboliu  :
+
+Dinaminis route kiekvienam elementui.
+
+        Pridedame child komponentą tėviniam BlogList
+
+       <Route path=":postID" element={<Blog />}/>
+
+      Child route yra kintantis t.y jog rašant localhost/bloglist/3 , 4 ar boa
+
+
+naudojame <Link ir prijungiame kiekvieno div key post.id rašydami: /blog/${post.id}
+
+Navigate : import { useNavigate } from  "react-router"  -  redirectas po formos submitinimo pvž atsitikus tam tikram veiksmui būsi redirectintas į kitą route.
