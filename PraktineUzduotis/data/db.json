@@ -1,0 +1,36 @@
+{
+  "donors": [
+    {
+      "id": "1",
+      "firstName": "John",
+      "lastName": "Doe",
+      "age": 30,
+      "gender": "male",
+      "bloodGroup": "O+"
+    },
+    {
+      "id": "2",
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "age": 25,
+      "gender": "female",
+      "bloodGroup": "A-"
+    },
+    {
+      "id": "ecc4",
+      "firstName": "Mantas",
+      "lastName": "Vainautis",
+      "age": "23",
+      "gender": "male",
+      "bloodGroup": "B"
+    },
+    {
+      "id": "d348",
+      "firstName": "Mantas",
+      "lastName": "Vaflis",
+      "age": "27",
+      "gender": "male",
+      "bloodGroup": "B"
+    }
+  ]
+}
